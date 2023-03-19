@@ -46,5 +46,6 @@ Open [http://localhost:5173](http://localhost:5173) or [http://127.0.0.1:5173/](
 
 - `notes-app/`: Source code base. Frontend made with **ReactJS**
 - `request/`: Examples to test the API and EndPoints
+- `assets/`: Contains resources, diagrams
 - `main.go`: API REST file made with Go. This execute the server
 - `go.mod`: File with the other packages require to build the server
