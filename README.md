@@ -1,6 +1,6 @@
 # Gophers App
 
-ToDo list application with Go, React, and other technologies
+Note list application with Go, React, and other technologies
 
 ## 📜 System Requirement
 
