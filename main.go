@@ -143,6 +143,9 @@ func main() {
 	// Start server
 	log.Println("Service running on port :" + PORT)
 	err := http.ListenAndServe(":"+PORT, handler)
+
+
+	
 	if err != nil {
 		log.Fatal(err)
 	}
