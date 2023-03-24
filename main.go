@@ -30,6 +30,16 @@ func HomeHandler(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w, "🏠 Página principal!")
 }
 
+func Hello(ctx *gin.Context) {
+	name := ctx.Param("name")
+	ctx.JSON(200, gin.H{"message": fmt.Sprintf("Hello %s!", name)})
+}
+func Engine() *gin.Engine {
+	engine := gin.Default()
+	engine.GET("/hello/:name", Hello)
+	return engine
+}
+
 func GetAllNotesHandler(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 
