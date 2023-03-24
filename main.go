@@ -122,7 +122,7 @@ func CreateNoteHandler(w http.ResponseWriter, r *http.Request) {
 	json.NewEncoder(w).Encode(note)
 }
 
-var PORT = "3001"
+var PORT = "8080"
 
 func main() {
 	router := mux.NewRouter()
