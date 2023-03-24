@@ -7,7 +7,7 @@ phases:
   build:
     commands:
       #- go run main.go
-      - go build -o my-api main.go
+      - go build -o my-api application.go
       - zip -r my-api.zip my-api
   #post_build:
     #commands:
