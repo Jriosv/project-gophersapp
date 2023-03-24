@@ -1,1 +1,1 @@
-web: my-api
+web: ./my-api
