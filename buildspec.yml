@@ -3,7 +3,7 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      golang: 1.16
+      golang: 1.18
   build:
     commands:
       - go build -o my-api main.go
