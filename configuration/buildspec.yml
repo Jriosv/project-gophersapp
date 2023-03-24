@@ -7,14 +7,14 @@ phases:
   build:
     commands:
       #- go run main.go
-      - go build -o ./my-api main.go
-      - zip -r ./my-api.zip my-api
+      - go build -o ../my-api ../main.go
+      - zip -r ../my-api.zip ../my-api
   #post_build:
     #commands:
       #- zip -r my-api.zip my-api
 
 artifacts:
   files:
-    -./*
+    -../*
 
 
