@@ -1,0 +1,18 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      go: 1.20.2
+  build:
+    commands:
+      - go build -o my-api main.go
+  post_build:
+    commands:
+      - zip -r my-api.zip my-api
+
+artifacts:
+  files:
+    - my-api.zip
+
+
