@@ -13,8 +13,8 @@ phases:
     #commands:
       #- zip -r my-api.zip my-api
 
-artifacts:
-  files:
-    - my-api
+#artifacts:
+  #files:
+    #- my-api
 
 
