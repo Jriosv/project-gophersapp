@@ -42,9 +42,15 @@ Open [http://localhost:5173](http://localhost:5173) or [http://127.0.0.1:5173/](
 - [Go](https://marketplace.visualstudio.com/items?itemName=golang.Go) help with go syntax and other functions
 - [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) if you want to test the API with Visual Studio Code, you can use this extension to execute the `request/` files
 
+## 🧪 Testing
+
+- **Vitest** Blazing Fast Unit Test Framework | [Get Started](https://vitest.dev/guide/)
+- React Testing Library | [Get Started](https://testing-library.com/docs/)
+
 ## 📚 Folder structure
 
 - `notes-app/`: Source code base. Frontend made with **ReactJS**
+  - `tests/`: Contains the tests performed for the components
 - `request/`: Examples to test the API and EndPoints
 - `assets/`: Contains resources, diagrams
 - `main.go`: API REST file made with Go. This execute the server
