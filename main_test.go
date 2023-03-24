@@ -30,7 +30,7 @@ func TestHello(t *testing.T) {
 	if err := json.Unmarshal([]byte(body), &response); err != nil {
 		t.Fatalf("parsing json response: %v", err)
 	}
-	if response.Message != "Hello World!" {
+	if response.Message != "Hello World?" {
 		t.Fatalf("bad response message: %s", response.Message)
 	}
 }
