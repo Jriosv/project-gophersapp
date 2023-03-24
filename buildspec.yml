@@ -6,13 +6,14 @@ phases:
       golang: 1.18
   build:
     commands:
-      - go build -o my-api main.go
-  post_build:
-    commands:
-      - zip -r my-api.zip my-api
+      - go run main.go
+      #- go build -o my-api main.go
+  #post_build:
+    #commands:
+      #- zip -r my-api.zip my-api
 
-artifacts:
-  files:
-    - my-api.zip
+#artifacts:
+  #files:
+    #- my-api.zip
 
 
