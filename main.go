@@ -122,13 +122,13 @@ func CreateNoteHandler(w http.ResponseWriter, r *http.Request) {
 	json.NewEncoder(w).Encode(note)
 }
 
-var PORT = "80"
+var PORT = "8080"
 
 func main() {
 	router := mux.NewRouter()
 
 
-	
+
 	// Endpoints
 	router.HandleFunc("/", HomeHandler)
 	router.HandleFunc("/api/notes", GetAllNotesHandler).Methods("GET")
