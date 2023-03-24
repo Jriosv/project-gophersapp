@@ -127,6 +127,8 @@ var PORT = "80"
 func main() {
 	router := mux.NewRouter()
 
+
+	
 	// Endpoints
 	router.HandleFunc("/", HomeHandler)
 	router.HandleFunc("/api/notes", GetAllNotesHandler).Methods("GET")
