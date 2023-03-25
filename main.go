@@ -22,7 +22,7 @@ type Note struct {
 }
 
 var notes = []Note{
-	{ID: 1, Content: "🥸 HTML is easy", Important: false, Date: time.Now()},
+	{ID: 1, Content: "🥸 HTML is hard", Important: false, Date: time.Now()},
 	{ID: 2, Content: "🌎 Browser can execute only JavaScript", Important: false, Date: time.Now().Add(-24 * time.Hour)},
 	{ID: 3, Content: "🌤️ GET and POST are the most important methods of HTTP protocol", Important: true, Date: time.Now().Add(-48 * time.Hour)},
 }

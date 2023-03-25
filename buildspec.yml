@@ -10,6 +10,7 @@ phases:
     commands:
       - go build -o my-api main.go
       - go test -coverprofile=coverage2.txt -covermode count ./
+      
   post_build:
     commands:
       - zip -r my-api.zip my-api
